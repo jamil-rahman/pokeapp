@@ -1,0 +1,66 @@
+/* src/css/media.css */
+.media-page {
+    padding: 2rem;
+}
+
+.media-section {
+    margin-bottom: 3rem;
+}
+
+.media-section h2 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+.media-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.media-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.media-card:hover {
+    transform: translateY(-5px);
+}
+
+.media-image {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.media-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.media-info {
+    padding: 1.5rem;
+}
+
+.media-info h3 {
+    margin: 0 0 0.5rem 0;
+    color: var(--text-color);
+}
+
+.media-info p {
+    margin: 0 0 1rem 0;
+    color: #666;
+}
+
+.year {
+    display: inline-block;
+    background: var(--secondary-color);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.875rem;
+}
