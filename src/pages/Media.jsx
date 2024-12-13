@@ -1,5 +1,6 @@
 // Nithish Vinolin Stephen 
 import '../css/media.css';
+const publicUrl = import.meta.env.BASE_URL;
 
 export default function Media() {
   const mediaContent = {
@@ -8,7 +9,7 @@ export default function Media() {
         title: "Pokemon: Indigo League",
         description: "The original series following Ash Ketchum's journey",
         year: "1997",
-        image: "./indigo.jpg"
+        image: `${publicUrl}indigo.jpg`
       }
     ],
     movies: [
@@ -16,7 +17,7 @@ export default function Media() {
         title: "Pokemon: The First Movie",
         description: "Mewtwo's origin story and clash with the original Pokemon",
         year: "1998",
-        image: "./first_movie.jpg"
+        image: `${publicUrl}first_movie.jpg`
       }
     ],
     games: [
@@ -24,7 +25,7 @@ export default function Media() {
         title: "Pokemon Red and Blue",
         description: "The original Pokemon games that started it all",
         year: "1996",
-        image: "./red_blue.jpeg"
+        image: `${publicUrl}red_blue.jpeg`
       }
     ]
   };
