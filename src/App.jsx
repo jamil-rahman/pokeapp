@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Media from './pages/Media';
 import About from './pages/About';
 import './index.css';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
           </Routes>
         </main>
       </div>
+      <Footer />
     </Router>
   );
 }

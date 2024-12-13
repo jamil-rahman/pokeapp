@@ -1,4 +1,4 @@
-// src/pages/About.jsx
+// Prince Lawrence John Castelino
 import '../css/about.css';
 
 export default function About() {

@@ -1,4 +1,4 @@
-// src/pages/Media.jsx
+// Nithish Vinolin Stephen 
 import '../css/media.css';
 
 export default function Media() {
