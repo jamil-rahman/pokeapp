@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/pokeapp">
       <div className="app">
         <Navigation />
         <main className="main-content">
